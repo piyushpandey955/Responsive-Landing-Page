@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+    background-color: #fff;
+    transition: all ease 0.5s;
+    scroll-behavior: smooth;
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+.left{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 2rem;
+    color: red;
+}
+
+.left:hover{
+    color: blue;
+}
+
+.right{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right ul{
+    display: flex;
+    list-style: none;
+}
+
+.right ul li{
+    margin: 0 25px 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.right ul li :hover{
+    font-size: 1.38rem;
+    color: blue;
+    cursor: pointer;
+}
+
+.box{
+    margin-top: 80px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box h2 {
+    color: blue;
+}
+                 
+.btn-grad {
+    background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC  51%, #FC354C  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+ 
